@@ -8,6 +8,7 @@ Widget fabLogin({
   required BuildContext context,
 }) {
   return FloatingActionButton.extended(
+    elevation: 10,
     heroTag: 1,
     backgroundColor: backgroundColor,
     onPressed: () => context.go('/home'),

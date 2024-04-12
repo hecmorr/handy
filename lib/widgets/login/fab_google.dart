@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
-Widget fabGoogle(
-    {required String assetString,
-    required String labelText,
-    required Color backgroundColor,
-    required Color textColor,
-    required BuildContext context}) {
+Widget fabGoogle({
+  required String assetString,
+  required String labelText,
+  required Color backgroundColor,
+  required Color textColor,
+  required BuildContext context,
+}) {
   return FloatingActionButton.extended(
+    elevation: 10,
     backgroundColor: backgroundColor,
     onPressed: () => {},
     label: Row(

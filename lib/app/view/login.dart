@@ -66,7 +66,7 @@ class Login extends StatelessWidget {
           ),
         ],
       ),
-      backgroundColor: Colors.orangeAccent,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
     );
   }
 }

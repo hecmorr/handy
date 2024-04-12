@@ -6,6 +6,7 @@ class AppTheme {
         useMaterial3: true,
         colorSchemeSeed: Colors.black,
         hintColor: Colors.black,
+        scaffoldBackgroundColor: Colors.orange.shade400,
         textTheme: TextTheme(
           titleLarge: GoogleFonts.montserratAlternates(),
           titleMedium: GoogleFonts.montserratAlternates(fontSize: 35),
