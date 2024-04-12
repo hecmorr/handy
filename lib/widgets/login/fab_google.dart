@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-Widget fabGoogle({
-  required String assetString,
-  required String labelText,
-  required Color backgroundColor,
-  required Color textColor,
-}) {
+Widget fabGoogle(
+    {required String assetString,
+    required String labelText,
+    required Color backgroundColor,
+    required Color textColor,
+    required BuildContext context}) {
   return FloatingActionButton.extended(
     backgroundColor: backgroundColor,
     onPressed: () => {},

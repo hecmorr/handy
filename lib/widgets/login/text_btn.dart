@@ -9,7 +9,7 @@ Widget txtBtn() {
         fontWeight: FontWeight.bold,
       ),
       textAlign: TextAlign.center,
-      'Olvidate tu contrasena? Toca aca para recupearla',
+      'Olvidaste tu contrasena? Toca aca para recuperarla.',
     ),
   );
 }

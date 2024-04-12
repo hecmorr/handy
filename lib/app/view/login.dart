@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../widgets/widgets.dart';
+import 'package:handy/widgets/widgets.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -38,6 +38,7 @@ class Login extends StatelessWidget {
                     labelText: 'Iniciar Sesion',
                     backgroundColor: Colors.black,
                     textColor: Colors.white,
+                    context: context,
                   ),
                 ),
                 const Padding(
@@ -56,6 +57,7 @@ class Login extends StatelessWidget {
                       labelText: 'Iniciar Sesion con Google',
                       backgroundColor: Colors.white,
                       textColor: Colors.black,
+                      context: context,
                     ),
                   ],
                 ),
