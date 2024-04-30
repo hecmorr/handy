@@ -11,5 +11,9 @@ final GoRouter routes = GoRouter(
       path: '/home',
       builder: (context, state) => const Home(),
     ),
+    GoRoute(
+      path: '/servicios',
+      builder: (context, state) => const ServicesPage(),
+    ),
   ],
 );

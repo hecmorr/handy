@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "447741612986",
+    "project_id": "handy-1d4a9",
+    "storage_bucket": "handy-1d4a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447741612986:android:00da9ea6aa2e7cfa8e0383",
+        "android_client_info": {
+          "package_name": "com.example.verygoodcore.handy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdsUi3f9umQhFd4Y20bBSGeDJVwtIpGmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
